@@ -19,10 +19,7 @@ The pipeline performs the following steps:
 
 ## Files
 
-*   **`AI_Exam_Question_3.ipynb`**: The main Jupyter Notebook containing the full analysis and code.
-*   **`create_structured_notebook.py`**: A Python script that programmatically generates the `AI_Exam_Question_3.ipynb` notebook.
-*   **`check_k.py`**: A helper script to quickly run the Elbow Method on simulated data to check for the optimal $k$.
-*   **`run_notebook.py`**: A script to execute the notebook programmatically.
+*   **`clustering_pipeline.ipynb`**: The main Jupyter Notebook containing the full analysis and code.
 *   **`Nigerian E-Commerce Dataset.xlsx`**: The input dataset used for analysis.
 *   **`cluster_assignments.csv`**: The output file containing the original data with assigned cluster labels.
 
@@ -40,20 +37,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn openpyxl notebook
 You can open and run the notebook using Jupyter:
 
 ```bash
-jupyter notebook AI_Exam_Question_3.ipynb
-```
- Generating the Notebook
-If the notebook is missing or you want to regenerate it from the source script:
-
-```bash
-python create_structured_notebook.py
-```
-
-### Quick K-Check
-To quickly check the inertia values for different $k$ (Elbow Method) using simulated data:
-
-```bash
-python check_k.py
+clustering_pipeline.ipynb
 ```
 
 ## Results
